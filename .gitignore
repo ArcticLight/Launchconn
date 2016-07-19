@@ -1,0 +1,11 @@
+
+#Do not store any files that are hidden
+.*
+#Except the gitignore, store that.
+!.gitignore
+
+#Remove editor cruft
+*~
+
+#Store no build files
+build/
